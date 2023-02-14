@@ -1,9 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 #col-left{
-    background-color: burlywood;
+    background-color: aqua;
     width: 60px;
 }
 #col-right{
-    background-color: aqua;
+    background-color: #1b72e8;
     width: calc(100% - 60px);
 }
 #boolean-stats{
