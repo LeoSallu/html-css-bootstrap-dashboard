@@ -1,0 +1,11 @@
+#col-left{
+    background-color: burlywood;
+    width: 60px;
+}
+#col-right{
+    background-color: aqua;
+    width: calc(100% - 60px);
+}
+#boolean-stats{
+    background-color: #1b72e8;
+}
