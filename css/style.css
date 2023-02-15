@@ -2,17 +2,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #col-left{
-    background-color: aqua;
     width: 60px;
+    background-color: darkblue;
 }
 #col-right{
-    background-color: #1b72e8;
     width: calc(100% - 60px);
     overflow-y: auto;
+}
+#header-col-right{
+    background-color: #1b72e8;
 }
 #boolean-stats{
     background-color: #1b72e8;
 }
+@media screen and (min-width:768px) {
+    #header-col-right div:first-child{
+        display: flex;
+        flex-direction: row;
+    }
+} 
+
 @media screen and (min-width:992px) {
     #col-left{
     width: 130px;
