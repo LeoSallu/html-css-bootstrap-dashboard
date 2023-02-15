@@ -1,14 +1,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-main{
-    height: 100vh;
-}
 #col-left{
     width: 60px;
     height: 100vh;
     background-image: url(../img/sidebar-bg.png);
-    background-color: #051e34;
+    background-color: darkblue;
 }
 #col-right{
     width: calc(100% - 60px);
@@ -17,12 +14,6 @@ main{
 }
 #header-col-right{
     background-color: #1b72e8;
-}
-#boolean-stats{
-    background-color: #1b72e8;
-}
-.img_avatar{
-    width: 30px;
 }
 @media screen and (min-width:992px) {
     #col-left{
