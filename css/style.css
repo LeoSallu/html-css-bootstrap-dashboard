@@ -13,3 +13,11 @@ body{
 #boolean-stats{
     background-color: #1b72e8;
 }
+@media screen and (min-width:992px) {
+    #col-left{
+    width: 130px;
+    }
+    #col-right{
+     width: calc(100% - 60px);  
+    }
+}
