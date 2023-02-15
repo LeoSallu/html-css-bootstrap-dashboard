@@ -8,6 +8,7 @@ body{
 #col-right{
     background-color: #1b72e8;
     width: calc(100% - 60px);
+    overflow-y: auto;
 }
 #boolean-stats{
     background-color: #1b72e8;

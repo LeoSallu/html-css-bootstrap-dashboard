@@ -24,17 +24,29 @@
 <body>
     <!-- HEADER  -->
     <header>
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/mobile-logo.png" alt="logo-mobile" width="70">
-                </a>             
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-auto">
+                    <a class="navbar-brand" href="#">
+                        <img class="d-lg-none" src="img/mobile-logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+                        <img class="d-none d-lg-block" src="img/logo.svg" alt="logo">
+                    </a>                
+                </div>
+                <div class="col">
+                    <div class="flex-grow-1">
+                        <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Lanravel" aria-label="Search">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-unstyled d-flex">
+                        <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-list"></i></a></li>
+                        <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-circle-question"></i></li>
+                        <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li class="p-2"><a class="text-warning" href="#"><i class="fa-solid fa-bell"></i></li>
+                    </ul>
+                </div>
             </div>
-        </nav>    
+        </div>
     </header>
     <!-- /HEADER  -->
     <!-- MAIN  -->
