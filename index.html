@@ -117,8 +117,22 @@
                             <h6 class="text-light">Studenti online negli ultimi 30 minuti</h6>
                             <h3 class="text-light">125</h3>
                         </div>
-                        <div class="col d-flex justify-content-center align-items-center pt-2">
+                        <div class="col d-flex align-items-center pt-2">
                             <h6 class="text-light">Nuovo Studente</h6>
+                            <!-- OFFCANVAS -->
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                            <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                I will not close if you click outside of me.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,11 +150,11 @@
                                 <table class="table">
                                     <thead>
                                       <tr>
-                                        <th scope="col-5">Nome</th>
-                                        <th class="d-none d-md-table-cell" scope="col">Data di inizio</th>
-                                        <th class="d-none d-md-table-cell" scope="col">ROI</th>
-                                        <th scope="col">Stato</th>
-                                        <th scope="col">Azioni</th>
+                                        <th class="col-5" scope="col">Nome</th>
+                                        <th class="col d-none d-md-table-cell" scope="col">Data di inizio</th>
+                                        <th class="col d-none d-md-table-cell" scope="col">ROI</th>
+                                        <th class="col" scope="col">Stato</th>
+                                        <th class="col" scope="col">Azioni</th>
                                       </tr>
                                     </thead>
                                     <tbody>
