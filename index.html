@@ -25,7 +25,7 @@
     <!-- HEADER  -->
     <header>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row align-items-center p-3">
                 <div class="col-auto">
                     <a class="navbar-brand" href="#">
                         <img class="d-lg-none" src="img/mobile-logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <ul class="list-unstyled d-flex">
+                    <ul class="list-unstyled d-flex m-0">
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-list"></i></a></li>
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-circle-question"></i></li>
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></li>
@@ -87,33 +87,95 @@
             <div id="col-right">
                 <!-- HEADER-COL-RIGHT  -->
                 <div id="header-col-right" class="container-fluid">
-                    <div class="row d-flex flex-column-reverse">
+                    <div class="row d-flex flex-column-reverse flex-md-row">
                         <div class="col p-3">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center pt-2 flex-grow-1">
                                 <h3>BOOLEAN</h3>
-                                <span class="badge">Piano Blaze</span>
+                                <span class="badge bg-primary bg-gradient">Piano Blaze</span>
                             </div>
                             <div>
-                                <span class="badge">3 app</span>
-                                <span class="badge">Boolean mobile app</span>
-                                <span class="badge">Boolean web app</span>
-                                <span class="badge">Boolean blog app</span>
+                                <span class="badge bg-primary bg-gradient">3 app</span>
+                                <span class="text-light"><i class="fa-solid fa-angles-right"></i></span>
+                                <span class="badge bg-primary bg-gradient d-lg-none">+</span>
+                                <span class="badge bg-primary bg-gradient d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge bg-primary bg-gradient d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="badge bg-primary bg-gradient d-none d-lg-inline-block">Boolean blog app</span>
                             </div>
                         </div>
-                        <div class="col d-flex flex-column justify-content-center">
+                        <div class="col d-flex flex-column justify-content-center pt-2">
                             <h6 class="text-light">Studenti online negli ultimi 30 minuti</h6>
                             <h3 class="text-light">125</h3>
                         </div>
-                        <div class="col d-flex align-items-center">
+                        <div class="col d-flex justify-content-center align-items-center pt-2">
                             <h6 class="text-light">Nuovo Studente</h6>
                         </div>
                     </div>
                 </div>
                 <!-- /HEADER-COL-RIGHT  -->
                 <!-- BODY-COL-RIGHT  -->
-                                    <!-- TABLE  -->
-                                
-            
+                <div class="container-fluid mt-3 g-5">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-header">
+                            Prossime Classi
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <!-- TABLE  -->
+                            <li class="list-group-item">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Nome</th>
+                                        <th class="d-none d-lg-table-cell" scope="col">Data di inizio</th>
+                                        <th class="d-none d-lg-table-cell" scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Classe #89</td>
+                                        <td class="d-none d-lg-table-cell">11 Gennaio 2023</td>
+                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td><span class="badge text-bg-success">Done</span></td>
+                                        <td>
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-pen"></i></button>
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-bucket"></i></button>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Classe #89</td>
+                                        <td class="d-none d-lg-table-cell">11 Febbraio 2023</td>
+                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td><span class="badge text-bg-warning">Progress</span></td>
+                                        <td>
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-pen"></i></button>
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-bucket"></i></button>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Classe #89</td>
+                                        <td class="d-none d-lg-table-cell">11 Marzo 2023</td>
+                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td><span class="badge text-bg-danger">Failed</span></td>
+                                        <td>
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-pen"></i></button>
+                                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-bucket"></i></button>
+                                            </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                            <!-- /TABLE  -->
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- /BODY-COL-RIGHT  -->
             </div>
         </div>

@@ -1,12 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+main{
+    height: 100vh;
+}
 #col-left{
     width: 60px;
+    height: 100vh;
+    background-image: url(../img/sidebar-bg.png);
     background-color: darkblue;
 }
 #col-right{
     width: calc(100% - 60px);
+    height: 100vh;
     overflow-y: auto;
 }
 #header-col-right{
@@ -15,13 +21,6 @@ body{
 #boolean-stats{
     background-color: #1b72e8;
 }
-@media screen and (min-width:768px) {
-    #header-col-right div:first-child{
-        display: flex;
-        flex-direction: row;
-    }
-} 
-
 @media screen and (min-width:992px) {
     #col-left{
     width: 130px;
