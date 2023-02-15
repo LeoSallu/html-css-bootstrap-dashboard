@@ -38,11 +38,22 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <ul class="list-unstyled d-flex m-0">
+                    <ul class="list-unstyled d-flex align-items-center m-0">
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-list"></i></a></li>
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-circle-question"></i></li>
                         <li class="p-2"><a class="text-secondary" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                        <li class="p-2"><a class="text-warning" href="#"><i class="fa-solid fa-bell"></i></li>
+                        <li class="p-2">
+                            <div class="dropdown">
+                                <a class="btn dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell text-warning"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -114,28 +125,31 @@
                 <!-- /HEADER-COL-RIGHT  -->
                 <!-- BODY-COL-RIGHT  -->
                 <div class="container-fluid mt-3 g-5">
+                    <!-- PROSSIME CLASSI -->
                     <div class="card" style="width: 30rem;">
                         <div class="card-header">
                             Prossime Classi
                         </div>
                         <ul class="list-group list-group-flush">
-                            <!-- TABLE  -->
+                            <!-- TABLE -->
                             <li class="list-group-item">
                                 <table class="table">
                                     <thead>
                                       <tr>
-                                        <th scope="col">Nome</th>
-                                        <th class="d-none d-lg-table-cell" scope="col">Data di inizio</th>
-                                        <th class="d-none d-lg-table-cell" scope="col">ROI</th>
+                                        <th scope="col-5">Nome</th>
+                                        <th class="d-none d-md-table-cell" scope="col">Data di inizio</th>
+                                        <th class="d-none d-md-table-cell" scope="col">ROI</th>
                                         <th scope="col">Stato</th>
                                         <th scope="col">Azioni</th>
                                       </tr>
                                     </thead>
                                     <tbody>
                                       <tr>
-                                        <td>Classe #89</td>
-                                        <td class="d-none d-lg-table-cell">11 Gennaio 2023</td>
-                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td>
+                                            <img class="img-fluid img_avatar" src="img/class-avatar.png" alt="avatar">Classe #89
+                                        </td>
+                                        <td class="d-none d-md-table-cell">11 Gennaio 2023</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
                                         <td><span class="badge text-bg-success">Done</span></td>
                                         <td>
                                             <div class="btn-group" role="group" aria-label="Basic example">
@@ -145,9 +159,11 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td>Classe #89</td>
-                                        <td class="d-none d-lg-table-cell">11 Febbraio 2023</td>
-                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td>
+                                            <img class="img-fluid img_avatar" src="img/class-avatar.png" alt="avatar">Classe #89
+                                        </td>
+                                        <td class="d-none d-md-table-cell">11 Febbraio 2023</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
                                         <td><span class="badge text-bg-warning">Progress</span></td>
                                         <td>
                                             <div class="btn-group" role="group" aria-label="Basic example">
@@ -157,9 +173,11 @@
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td>Classe #89</td>
-                                        <td class="d-none d-lg-table-cell">11 Marzo 2023</td>
-                                        <td class="d-none d-lg-table-cell">20%</td>
+                                        <td>
+                                            <img class="img-fluid img_avatar" src="img/class-avatar.png" alt="avatar">Classe #89
+                                        </td>
+                                        <td class="d-none d-md-table-cell">11 Marzo 2023</td>
+                                        <td class="d-none d-md-table-cell">20%</td>
                                         <td><span class="badge text-bg-danger">Failed</span></td>
                                         <td>
                                             <div class="btn-group" role="group" aria-label="Basic example">
@@ -171,11 +189,21 @@
                                     </tbody>
                                 </table>
                             </li>
-                            <!-- /TABLE  -->
+                            <!-- TABLE -->
                         </ul>
                     </div>
-                </div>
-
+                    <!-- /PROSSIME CLASSI -->
+                    <!-- FAQ  -->
+                    <div class="card mt-3" style="width: 18rem;">
+                        <div class="card-header">
+                          F.A.Q.
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                    </div>
                 <!-- /BODY-COL-RIGHT  -->
             </div>
         </div>
