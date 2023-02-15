@@ -118,6 +118,85 @@
                         <div class="col d-flex align-items-center pt-2">
                             <h6 class="text-light">Nuovo Studente</h6>
                             <!-- OFFCANVAS -->
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                                <i id="plus_offcanvas" class="fa-solid fa-plus"></i>
+                            </button>
+                            <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <!-- OFFCANVAS BODY  -->
+                                    <div class="row g-3">
+                                        <div class="col">
+                                            <label for="First name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" placeholder="Inserisci Nome" aria-label="First name">
+                                        </div>
+                                        <div class="col">
+                                            <label for="Last name" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" placeholder="Inserisci Cognome" aria-label="Last name">
+                                        </div>
+                                    </div>
+                                    <div class="row g-3 mt-2">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Password" aria-label="Password">
+                                        </div>
+                                    </div>
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                          <label for="inputAddress" class="form-label">Address</label>
+                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12">
+                                          <label for="inputAddress2" class="form-label">Address 2</label>
+                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">City</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">State</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Check me out
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                    <!-- /OFFCANVAS BODY -->
+                            </div>
+                            <!-- /OFFCANVAS -->
                         </div>
                     </div>
                 </div>
